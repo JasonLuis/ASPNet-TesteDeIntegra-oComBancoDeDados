@@ -1,0 +1,5 @@
+Além das soluções que abordamos nos vídeos anteriores, o XUnit traz outra possibilidade de trabalhar com compartilhamento de dados de contexto: o AssemblyFixture.
+
+O **AssemblyFixture** permite que seja compartilhada uma única instância de um fixture entre todas as classes de teste em um assembly de testes. Essas instâncias são criadas uma vez antes de  qualquer teste e limpas após a conclusão de todos os testes. A maior diferença desta solução para o **CollectionFixture** que aplicamos anteriormente é que o **AssemblyFixture** permite que as fixtures sejam usadas em vários testes simultâneamente e por isso devem ser utilizadas tendo em mente esse requisito.
+
+Para conhecer mais sobre as soluções **ClassFixture**, **CollectionFixture** e **AssemblyFixture**, e também conferir exemplos de como podem ser aplicados, você pode [acessar a documentação oficial do XUnit](https://xunit.net/docs/shared-context#assembly-fixture).

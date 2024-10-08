@@ -1,0 +1,5 @@
+O padrão Data Builder é um padrão de projeto que pode ser utilizado em testes de integração (e também em testes unitários) para facilitar a criação de dados de teste complexos de forma eficiente e legível. Ele é particularmente útil quando os dados de teste têm uma estrutura complexa e/ou requerem muitos atributos para serem configurados.
+
+A ideia básica por trás do padrão Data Builder é criar um construtor de objetos que permite configurar facilmente os atributos do objeto de teste. Além disso, se a estrutura dos objetos de dados mudar no futuro, só precisamos ajustar o construtor correspondente, mantendo os testes de integração relativamente independentes de mudanças na implementação interna das classes.
+
+Para conhecer mais sobre o padrão de projeto data builder, suas implicações e outras possibilidades de utilização, você pode [consultar a documentação](https://refactoring.guru/pt-br/design-patterns/builder).
